@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="fonts/font.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="images/fontawesome/css/all.css" rel="stylesheet" />
   </head>
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -27,7 +26,7 @@
           <div class="header-btn">
             <!-- <i class="fas fa-bars"></i>-->
             <div class="header-btn__menus">
-              <a href="#">≡</a>
+              ≡
             </div>
           </div>
         </div>
@@ -48,6 +47,20 @@
         </div>
       </div>
     </header>
+    <nav class="menu">
+      <div class="conteiner conteiner-menu">
+        <div class="close-btn"></div>
+        <div class="menu__list">
+          <ul>
+            <li><a href="#">Взнати ціну</a></li>
+            <li><a href="#">Характеристики</a></li>
+            <li><a href="#">Тест драйв</a></li>
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Контаки</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section class="slider-top">
       <div class="slider">
         <div
@@ -107,7 +120,9 @@
               <div class="indicators__block__variable__font">
                 <span>400</span>
               </div>
-              <div class="indicators__block__variable__font__second">
+              <div
+                class="indicators__block__variable__font__second indicators__block__variable__font__plus"
+              >
                 <span>км/год</span>
               </div>
             </div>
@@ -118,7 +133,14 @@
         </section>
         <!-- video *************************************** -->
         <section class="video">
-          <img src="images/video.png" alt="video" />
+          <iframe
+            width="100%"
+            height="400px"
+            src="https://www.youtube.com/embed/tw4jkyfY4HE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </section>
         <!-- discribe ************************************ -->
         <section class="discribe">
